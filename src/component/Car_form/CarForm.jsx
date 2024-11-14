@@ -25,7 +25,11 @@ const CarForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // use of the car slice--> here i am stuck ,what is the use of the handlesubmit function
+   if(name&&cost){
     dispatch(addCar({ name, cost }));
+   }else{
+    alert("please Enter the data")
+   }
   };
 
   return (
