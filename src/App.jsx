@@ -1,4 +1,4 @@
-import { CarForm,CarList,CarValue,CarSearch,CarCard } from "./component/index"
+import { CarForm,CarList,CarValue, } from "./component/index"
 
 function App() {
   
@@ -6,9 +6,7 @@ function App() {
     <>
     <CarForm/>
     <CarList/>
-    <CarCard/>
-    <CarSearch/>
-    <CarValue/>
+     <CarValue/>
     </>
   )
 }
